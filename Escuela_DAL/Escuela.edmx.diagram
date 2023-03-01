@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f448f753c6f14c11b91cb479ce6d63ba" Name="Diagram1">
+        <EntityTypeShape EntityType="EscuelaModel.Alumno" Width="1.5" PointX="7.5" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EscuelaModel.Ciudad" Width="1.5" PointX="5.25" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EscuelaModel.Estado" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="EscuelaModel.Facultad" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EscuelaModel.Pais" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EscuelaModel.Universidad" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EscuelaModel.Usuario" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="EscuelaModel.FK_Alumno_Facultad" ManuallyRouted="false" />
+        <AssociationConnector Association="EscuelaModel.FK_Ciudad_Estado" ManuallyRouted="false" />
+        <AssociationConnector Association="EscuelaModel.FK_Facultad_Ciudad" ManuallyRouted="false" />
+        <AssociationConnector Association="EscuelaModel.FK_Estado_Pais" ManuallyRouted="false" />
+        <AssociationConnector Association="EscuelaModel.FK_Facultad_Universidad" ManuallyRouted="false" />
+        <AssociationConnector Association="EscuelaModel.FK_Alumno_Ciudad" />
+        <EntityTypeShape EntityType="EscuelaModel.Materia" Width="1.5" PointX="0.75" PointY="6.875" />
+        <EntityTypeShape EntityType="EscuelaModel.MateriaAlumno" Width="1.5" PointX="9.75" PointY="4" />
+        <AssociationConnector Association="EscuelaModel.FK_MateriaAlumno_MateriaAlumno" />
+        <AssociationConnector Association="EscuelaModel.FK_MateriaAlumno_Materia" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

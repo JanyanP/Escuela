@@ -1,0 +1,35 @@
+﻿#imgLogin{
+    content: url('../Imagenes/panda.jpg');
+    width:40%;
+    margin: auto;
+}
+
+#formLogin{
+    width: 50%;
+    margin: 100px auto;
+    border: 1px solid blue;
+    box-shadow: gray 5px 5px;
+    height:auto;
+}
+
+table{
+    margin:auto;
+    margin-bottom:10px;
+    height: auto;
+}
+
+body,html{
+    font-family: Consolas;
+    font-size: 18px;
+}
+
+#btnIngresar{
+    background-color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    font-size:20px;
+    height:fit-content;
+}
